@@ -8,8 +8,7 @@
 
 ## Reporting a Concern
 
-Report bugs using 
-Report concerns [here](https://github.com/Mirus-Initiative/Cosmos/issues/new/choose).
+Report bugs and vulnerabilites, as well as feature requests, using our [Issues Submission](https://github.com/Mirus-Initiative/Cosmos/issues/new/choose) page.
 
 A response to the concern will be made within two business days on [Cosmos Discussions](https://github.com/Mirus-Initiative/Cosmos/discussions).
 
