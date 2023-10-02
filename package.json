@@ -1,0 +1,14 @@
+{
+  "name": "cosmos",
+  "version": "0.0.1",
+  "description": "A specialized Discord bot for Sam Aster and her community.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Aster",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  }
+}
