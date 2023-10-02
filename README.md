@@ -14,14 +14,14 @@
 
 **Cosmos is in Closed Beta =>** To find out more about Cosmos, including how you can be invited to experience what it's like as a member in one of Cosmos's servers as a beta end-user, please watch Sam Aster's videos on [Twitch](https://twitch.tv/sam_aster_).
 
-Currently, there are no invitations available for beta-testing Cosmos as a server admin. Please watch this page, Sam Aster's Twitch [channel](https://twitch.tv/sam_aster_), or [Cosmos Discussions](https://github.com/Mirus-Initiative/Cosmos/discussions/1) page for  future details.
+Currently, there are no invitations available for beta-testing Cosmos as a server admin. Please watch this page, Sam Aster's [Twitch](https://twitch.tv/sam_aster_) channel, and/or our [Cosmos Discussions](https://github.com/Mirus-Initiative/Cosmos/discussions/1) page for  future details.
 
 ### How can I contribute?
 
-You are welcome to share bugs and feature requests on our [Discussions](https://github.com/Mirus-Initiative/Cosmos/discussions/1) page.
+You are welcome to share bugs, feature requests, or vulnerabilites by going to our [Issue Submission](https://github.com/Mirus-Initiative/Cosmos/issues/new/choose) page and selecting the appropriate option. We'll keep you updated about your submission on our [Cosmos Discussions](https://github.com/Mirus-Initiative/Cosmos/discussions/1) page.
 
-If there is some other way that you would like to contribute, please contact Sam Aster by [email](mailto:hempster.og@gmail.com),   [phone call](tel:+1-719-695-0179), or [SMS message](sms:+1-719-695-0179).
+If there is some other way that you would like to contribute, please contact Sam Aster by [email](mailto:hempster.og@gmail.com),   [phone](tel:+1-719-695-0179), or [SMS](sms:+1-719-695-0179).
 
- **Please note:**
+ #### Please note:
 
- While Ms. Aster is providing her contact information for the services of bettering Cosmos, **any unathorized use of this information is hereby announced unwelcomed and will result in removal of your message and contact information, as well as a ban from using Cosmos and/or expulsion from any beta-testing that is available.**
+While Ms. Aster is providing her contact information for the services of bettering Cosmos, **any unathorized use of this information is hereby announced unwelcomed and will result in removal of your message and contact information, as well as a ban from using Cosmos and/or expulsion from any beta-testing that is available.**
