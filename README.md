@@ -1,2 +1,2 @@
 # Cosmos
- A specialized discord bot for Sam Aster and his community
+ A specialized Discord bot for Sam Aster and her community.
