@@ -1,5 +1,5 @@
 # Cosmos
-## A Discord Client Application and Bot.
+## A Discord Client Application for Server Management.
 
 ### What is Cosmos?
  1) **Discord Server Management via Custom Client =>** Cosmos is a Discord server manager which automates the process of server creation for Discord users by automatically enabling key features that one would hope to find in a safe and inclusive Discord server:
