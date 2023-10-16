@@ -13,7 +13,7 @@
  -  active chatter recognition. Reward your members with ranks that can grant them special perks, both on- and off-stream.
  -  commands that keep your viewers entertained in-chat with games, quotes, and celebratory messages, as well as stream and channel information or social links. 
 ### When can I use Cosmos myself?
-**Cosmos is in Closed Beta =>** To find out more about Cosmos, including how you can soon join a waitlist and experience what it's like as a member in one of Cosmos's Discord servers as a beta end-user, please watch this page and/or our [Cosmos Discussions](https://github.com/Mirus-Initiative/Cosmos/discussions/1) page for further details. You can also follow Sam Aster on [Twitch](https://twitch.tv/sam_aster_) and use Cosmos as development progresses.
+**Cosmos is not available to the public =>** To find out more about Cosmos, including how you can soon join a waitlist to experience what it's like as a member in one of Cosmos's Discord servers as a beta end-user, please watch this page and/or our [Cosmos Discussions](https://github.com/Mirus-Initiative/Cosmos/discussions/1) page for further details. You can also follow Sam Aster on [Twitch](https://twitch.tv/sam_aster_) and use Cosmos as development progresses.
 ### How can I contribute?
 You are welcome to share bugs, feature requests, or vulnerabilites by going to our [Issue Submission](https://github.com/Mirus-Initiative/Cosmos/issues/new/choose) page and selecting the appropriate option. We'll keep you updated about your submission on our [Cosmos Discussions](https://github.com/Mirus-Initiative/Cosmos/discussions/1) page.
 If there is some other way that you would like to contribute, please contact Sam Aster by [email](mailto:hempster.og@gmail.com).
