@@ -7,8 +7,10 @@
 - role and channel creator and permission manager.
 - server expectations and responsibilities management tools such as rules creation and onboarding supervision.
 - and more soon to come!
+
 2) **Discord Bot Presence =>** Ensure your members always have a friend in need. Cosmos is more than just a server manager, as they have a bot presence that is designed with end-users in mind.
  - Cosmos will always be available, monitoring messages and ensuring that members are given an understanding and welcoming environment, allowing users to express themselves individually and feely without fear of discrimination, harrassment, or retaliation.
+
 3) **Twitch Chatbot =>** Give yourself a helping hand with a partner that can keep your friends, fans, and followers coming back for more with features like:
  -  active chatter recognition. Reward your members with ranks that can grant them special perks, both on- and off-stream.
  -  commands that keep your viewers entertained in-chat with games, quotes, and celebratory messages, as well as stream and channel information or social links. 
