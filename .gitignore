@@ -3,3 +3,4 @@ jsconfig.json
 package-lock.json
 servers.json
 node_modules
+.vscode

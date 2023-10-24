@@ -1,6 +1,5 @@
 const { Collection, OAuth2Guild, Guild } = require( 'discord.js' );
-const servers = require( '../servers.json' );
-const { handleError } = require( '../../appUtilities/errorHandler.js' );
+const servers = require( '../../servers.json' );
 module.exports = {
     /**
      *
@@ -17,7 +16,7 @@ module.exports = {
             await unownedServer.leave().then( async ( leftServer ) =>
             {
                 console.log( `Left unowned server ${ leftServer }` );
-            }, handleError );
+            }, console.trace );
         };
         /**
          *
@@ -28,14 +27,14 @@ module.exports = {
             await unapprovedServer.delete().then( async ( deletedServer ) =>
             {
                 console.log( `Deleted unapproved server ${ deletedServer.name }` );
-            }, handleError );
+            }, console.trace );
         };
         for ( const guild of guilds )
         {
             const server = guild[ 1 ];
             if ( !server.owner )
             {
-                await server.fetch().then( leaveServer, handleError );
+                await server.fetch().then( leaveServer, console.trace );
             } else
             {
                 let accepted = false;
@@ -49,7 +48,7 @@ module.exports = {
                 }
                 if ( !accepted )
                 {
-                    await server.fetch().then( deleteServer, handleError );
+                    await server.fetch().then( deleteServer, console.trace );
                 }
             }
         }

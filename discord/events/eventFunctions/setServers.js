@@ -5,8 +5,6 @@ const {
 	EmbedBuilder,
 	TextChannel
 } = require( 'discord.js' );
-const { handleError } = require( '../../appUtilities/errorHandler.js' );
-
 module.exports = {
 	/**
 	 *
@@ -26,15 +24,15 @@ module.exports = {
 				{
 					invites.forEach( ( invite ) =>
 					{
-						invite.delete().catch( handleError );
+						invite.delete().catch( console.trace );
 					} );
-				}, handleError );
+				}, console.trace );
 				await welcomeChannel.createInvite( {
 					maxUses: 1
 				} ).then( async ( invite ) =>
 				{
 					console.log( invite.url );
-				}, handleError );
+				}, console.trace );
 			}
 		};
 		const verificationServer = guilds.find( ( server ) =>
@@ -55,14 +53,14 @@ module.exports = {
 					{
 						welcomeChannel.permissionOverwrites.edit( server.roles.everyone, {
 							ViewChannel: true
-						} ).catch( handleError );
+						} ).catch( console.trace );
 						welcomeChannel.messages.fetch().then( ( messages ) =>
 						{
 							messages.forEach( ( message ) =>
 							{
-								message.delete().catch( handleError );
+								message.delete().catch( console.trace );
 							} );
-						}, handleError );
+						}, console.trace );
 						const mainServer = guilds.find( ( server ) =>
 						{
 							server.name.includes( `Sam's Room v` );
@@ -114,8 +112,8 @@ module.exports = {
 						} );
 						await inviteOwner( welcomeChannel );
 					}
-				}, handleError );
-			}, handleError );
+				}, console.trace );
+			}, console.trace );
 		};
 	}
 };

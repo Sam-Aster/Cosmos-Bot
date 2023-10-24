@@ -1,6 +1,6 @@
 const tmi = require( 'tmi.js' );
 const { channel, clientPassword } = require( '../config.json' );
-const { handleError } = require( '../appUtilities/errorHandler.js' );
+const { connected } = require( './events/connected' );
 const bot = new tmi.client( {
     identity: {
         username: channel,
@@ -10,10 +10,8 @@ const bot = new tmi.client( {
         'sam_aster_'
     ]
 } );
-bot.on( 'connected', () =>
-{
-    bot.say( channel, 'Hello!' );
-} );
+exports.bot = bot;
+bot.on( 'connected', connected );
 module.exports = {
-    connect: bot.connect().catch( handleError )
+    connect: bot.connect().catch( console.trace )
 };
